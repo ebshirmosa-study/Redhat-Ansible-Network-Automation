@@ -12,3 +12,22 @@ This repository contains examples, labs, and best-practice playbooks for automat
 - Notes and cheat-sheets for exam topics and commands
 
 ## Repository structure
+├─ README.md
+├─ LICENSE
+├─ .gitignore
+├─ playbooks/
+│ ├─ device_backup.yml
+│ ├─ configure_interface.yml
+│ └─ gather_facts.yml
+├─ labs/
+│ ├─ lab01-basic-connection.md
+│ └─ lab02-device-backup.md
+├─ inventory/
+│ ├─ hosts.yml
+│ └─ group_vars/
+├─ docs/
+│ └─ exam_topics.md
+├─ examples/
+│ └─ iosxe_example.yml
+└─ scripts/
+└─ helper_scripts.sh
